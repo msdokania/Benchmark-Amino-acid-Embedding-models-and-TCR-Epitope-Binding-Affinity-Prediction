@@ -33,7 +33,7 @@ As observed in the results from the previous section, the catELMo embedding prod
 We can observe that the prediction results using catELMo embedding gives an accuracy of 0.7225 (tcr split), 0.6929 (epitope split). This is less accurate than the catELMo + baseline model which has accuracy of 0.80972 (tcr split), 0.75286 (epitope split). However, the result is slightly better than the SeqVec + baseline (as well as tcrpeg+baseline and tcrconv+baseline) which has accuracy of 0.69717 (tcr split), 0.653654 (epitope split). We can conclude that catELMo is highly effective in capturing the context of the sequences provided. However, SeqVec + Random Forest performed better than SeqVec + baseline, suggesting that while the latter captures sequential information, it may have limitations in representing highly complex and non-linear interactions, which can be captured well in a Random Forest model. 
 
 
-References-
+# References-
 
 [1] catELMo: https://github.com/Lee-CBG/catELMo/tree/main 
 
